@@ -57,7 +57,7 @@ To keep code and documentation style consistent across all the code in the repos
 
 ### The `Cargo.toml` File
 
-The `Cargo.toml` file should ahere to the following template:
+The `Cargo.toml` file should adhere to the following template:
 
 ```toml
 [package]
@@ -248,7 +248,7 @@ impl<T> Trait for Struct<T> {
 }
 ```
 
-Notice the lack of space between implementaions of the same category except for methods which always get a newline between them (like all methods). Only add space between types and constants if a comment is necessary like in this example:
+Notice the lack of space between implementations of the same category except for methods which always get a newline between them (like all methods). Only add space between types and constants if a comment is necessary like in this example:
 
 ```rust
 impl Configuration {
@@ -389,7 +389,7 @@ pub fn check_all_contributions() -> Result<(), ContributionError> {
 }
 ```
 
-Avoid situations where an arbitrary number needs to be chosen, and if so prefer empirically measured numbers. If for some reason an arbitrary number needs to be chosen, and it should have a known order of magnitude, chose a power of two for the arbitrary number, or something close to a power of two unless the situation calls for something distinctly _not_ a power of two.
+Avoid situations where an arbitrary number needs to be chosen, and if so prefer empirically measured numbers. If for some reason an arbitrary number needs to be chosen, and it should have a known order of magnitude, choose a power of two for the arbitrary number, or something close to a power of two unless the situation calls for something distinctly _not_ a power of two.
 
 ### Comments and Documentation
 
